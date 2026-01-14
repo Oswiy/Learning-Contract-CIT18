@@ -4,6 +4,12 @@
   font-family: Inter;
 }
 
+ul {
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+}
+
 body {
   margin: 0;
   min-height: 150vh;
@@ -36,6 +42,9 @@ section:last-child {
 
 section h3 {
   font-size: 28px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  background: linear-gradient();
 }
 
 section li {
@@ -87,6 +96,10 @@ footer h1 {
     transform-origin: left;
   }
 
+  svg {
+    height: 22px;
+  }
+
   .site-map {
     padding: 25px 70px 25px 25px;
   }
@@ -111,6 +124,10 @@ footer h1 {
     transform-origin: left;
   }
 
+  svg {
+    height: 20px;
+  }
+
   .site-map {
     padding: 25px 70px 25px 25px;
   }
@@ -131,6 +148,11 @@ footer h1 {
 @media screen and (min-width: 376px) and (max-width: 459px) {
   body {
     min-height: 100vh;
+  }
+
+  svg {
+    height: 13px;
+    width: 18px;
   }
 
   footer {
@@ -214,6 +236,11 @@ footer h1 {
     min-height: 100vh;
   }
 
+  svg {
+    height: 10px;
+    width: 12px;
+  }
+
   footer {
     padding-bottom: 10px;
     overflow: hidden;
@@ -261,6 +288,11 @@ footer h1 {
 @media screen and (min-width: 200px) and (max-width: 320px) {
   body {
     min-height: 100vh;
+  }
+
+  svg {
+    height: 10px;
+    width: 12px;
   }
 
   footer {
