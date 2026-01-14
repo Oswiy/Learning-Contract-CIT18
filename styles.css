@@ -43,9 +43,11 @@ section:last-child {
 section h3 {
   font-size: 28px;
   margin-bottom: 0px;
-  padding-bottom: 5px;
-  background: linear-gradient();
-}
+  border-radius: 100px;
+  background: linear-gradient(90deg,
+    #ffffff 25%,
+    #515151 96%,
+    #353535 100%);}
 
 section li {
   font-size: 18px;
