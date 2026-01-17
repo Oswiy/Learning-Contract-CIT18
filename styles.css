@@ -117,7 +117,35 @@ footer h1 {
   }
 }
 
-@media screen and (min-width: 501px) and (max-width: 801px) {
+@media screen and (min-width: 650px) and (max-width: 800px) {
+  footer h1 {
+    color: white;
+    transform: scaleX(1.68) scaleY(1.2);
+    transform-origin: left;
+  }
+
+  svg {
+    height: 20px;
+  }
+
+  .site-map {
+    padding: 25px 70px 25px 25px;
+  }
+
+  .header {
+    font-size: smaller;
+  }
+
+  section h3 {
+    font-size: 23px;
+  }
+
+  section li {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 649px) {
   footer h1 {
     color: white;
     transform: scaleX(1.76) scaleY(1.2);
@@ -231,7 +259,7 @@ footer h1 {
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 376px) {
+@media screen and (min-width: 321px) and (max-width: 335px) {
   body {
     min-height: 100vh;
   }
@@ -249,6 +277,60 @@ footer h1 {
   footer h1 {
     color: white;
     transform: scaleX(2.5) scaleY(1.25);
+    transform-origin: left;
+    font-size: 11px;
+  }
+
+  .site-map {
+    padding: 12px 25px 20px 20px;
+    font-size: 11px;
+    gap: 8px;
+  }
+
+    .site-map-header {
+    margin: 10px 0px;
+  }
+
+  .site-map a{
+     font-size: 9px;
+  }
+
+  .header h2 {
+    font-size: 12px;
+  }
+
+  section h3 {
+    font-size: 12px;
+  }
+
+  section li {
+    font-size: 10px;
+  }
+
+  .content {
+    padding: 15px;
+  }
+}
+
+
+@media screen and (min-width: 336px) and (max-width: 375px) {
+  body {
+    min-height: 100vh;
+  }
+
+  svg {
+    height: 10px;
+    width: 12px;
+  }
+
+  footer {
+    padding-bottom: 10px;
+    overflow: hidden;
+  }
+
+  footer h1 {
+    color: white;
+    transform: scaleX(2.3) scaleY(1.25);
     transform-origin: left;
     font-size: 11px;
   }
